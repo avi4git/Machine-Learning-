@@ -5,12 +5,12 @@
 
 ## Let us first set the working directory path
 
-#setwd ("D:/utkarsh/Datafile/")
+#setwd ("Set The path/")
 #getwd()
 
 ## Data Import
-CTDF.dev <- read.table("/home/utkarsh/GreatLakes/datasets/DEV_SAMPLE.csv", sep = ",", header = T)
-CTDF.holdout <- read.table("/home/utkarsh/GreatLakes/datasets/HOLDOUT_SAMPLE.csv", sep = ",", header = T)
+CTDF.dev <- read.table("/hSet The Path/DEV_SAMPLE.csv", sep = ",", header = T)
+CTDF.holdout <- read.table("/hset the path/HOLDOUT_SAMPLE.csv", sep = ",", header = T)
 c(nrow(CTDF.dev), nrow(CTDF.holdout))
 str(CTDF.dev)
 
